@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 30px;
+}
+@media (max-width: 768px) {
+    .container{
+        justify-content: center;
+        margin: auto;
+        padding: auto;
+        max-width: 100%;
+        font-size: 10px;
+    } 
+   }
+body{
+    background-color:white;
+}
+@media (max-width: 768px) {
+    body{
+        margin: auto;
+        padding: auto;
+        font-size: 12px;
+        justify-self: center;
+    } 
+   }
+.logo-div img{
+    background-color: orangered;
+    border-radius: 50%; 
+}
+
+@media (max-width: 768px) {
+    .container .logo-div img{
+        background-color: orangered;
+        float: right;
+        clear: right;
+    } 
+   }
+p {
+    text-align: center;
+    font-size: 50px;
+    color: greenyellow; 
+}
+@media (max-width: 768px){
+    p{
+        font-size: 25px;
+    }
+}
+.hero-btn{
+    color: orangered;
+}
+.contain .one .sub-one p {
+    color: black;
+    margin-left:100px;
+    font-size: 20px;
+}
+.contain .one .sub-one li ul {
+    margin-left:100px;
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    p{
+        text-align: start;
+    } 
+}
+.formb {
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    height: 500px;
+    width:350px ;
+    margin: auto;
+    background-color: rgb(158, 161, 161);
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+}
+.formb p, h3{
+    text-align: center;
+}
+@media (max-width: 768px) {
+h3{
+        text-align: left;
+        padding: 0px 5px;
+    }
+
+}
+input[type=text], select {
+  width: 100%;
+  padding: 5px 5px;
+  margin: 0;
+  display: inline-block;
+  border: 1px solid rgb(100, 96, 96);
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+input[type=submit] {
+    width: 20%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding:5px 5px;
+    font-size: larger;
+    text-align: center;
+    justify-content: center;
+}
+select {
+    width: 100%;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+  }
+
+  textarea {
+    width: 100%;
+    height: 50px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+  }
+
+input:hover {
+    background-color: rgb(164, 164, 224);
+    color: black;
+    box-shadow: 0 0.5em 0.5em -0.5em;
+    transform: translateY(0.25em);
+    cursor:pointer; 
+}
+
+/* second section */
+.contain{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: gray;
+    /* padding-right: -10px; */
+    box-shadow: 0 0 5px 0px rgb(11, 11, 87);
+}
+   .contain .one{
+    display: flex;
+    justify-content: space-between;
+}
+.sub-one{
+    flex: 1;
+    text-align: start;
+    background: rgb(192, 192, 248);
+    color: black;
+    border-radius: 10px;
+    margin: 15px 5px;
+    padding: 20px;
+    box-shadow: 0 10px 5px 0 rgb(11, 11, 87);
+}
+
+.sub-one p{
+    margin-left:100px;
+    font-size: 20px;
+}
+.sub-one ul li{
+    margin-left:100px;
+    font-size: 20px;
+}
+.sub-one h2 {
+font-size: 30px;
+color: black;
+padding-top: 10px;
+padding-bottom: 20px;
+margin-left: 50px;
+}
+.logo-div img{
+background-color: orangered;
+border-radius: 50%;
+margin-left: 60px;
+}
+@media (max-width: 768px) {  
+    .contain .one{
+       display: block;
+       text-align: center;
+       justify-content: center;
+    } 
+   } 
