@@ -1,12 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
-
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href=
-"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="login.css">
@@ -14,8 +10,9 @@
 </head>
 
 <body>
-	<form action="validate.php" method="post">
+	<form action="loginvalidate.php" method="post">
 		<div class="login-box">
+			<h6>admins only</h6>
 			<h1>Login</h1>
 
 			<div class="textbox">
@@ -30,12 +27,15 @@
 						name="password" value="">
 			</div>
 
-			<input class="button" type="submit"
+			<input  class="button" type="submit"
 					name="login" value="Sign In">
+					
 		</div>
 	</form>
 	
-	<?php include 'process/classes.php'; ?>
+	<!-- <?php include 'process/classes.php'; ?> -->
+	
+	<!-- <?php include './loginconnection.php.php'; ?> -->
 	
 </body>
 

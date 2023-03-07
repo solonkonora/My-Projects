@@ -53,12 +53,12 @@
         <section class="footer">
         <h4>ABOUT</h4>
         <p>visit our about page to know more abou us in full details</p>
-        <div class="icons">
+        <!-- <div class="icons">
             <i class="fa fa-facebook"></i>
             <i class="fa fa-twitter"></i>
             <i class="fa fa-instagram"></i>
             <i class="fa fa-linkedin"></i>
-        </div>
+        </div> -->
         <p>Made with joy by N.N.S</p>
         </section>
         <?php include 'inc/footer.php';?> 

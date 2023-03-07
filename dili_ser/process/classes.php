@@ -40,12 +40,12 @@ class Route {
 
 
 class adminlogin {
-    private $is_loggedin = false;
+    // private $is_loggedin = false;
     private $instance;
     private $con;
     public $message;
 
-    public function login($username, $password){
+    public function login ($username, $password){
         $this->instance = new DB();
         $this->con = $this->instance->connect();
 
@@ -62,13 +62,19 @@ class adminlogin {
             Session::set('username', $data['username']);
             Session::set('password', $data['password']);
             Session::set('is_loggedin', true);
-            $is_loggedin = true;
+            // $is_loggedin = true;
             
             return true;
           }
+
+
+          function forceRoute($page){
+          header("Location:../admin_panel/index.php?page=$page");
+
+          
     }
 } 
-
+}
 
 class Session{
     // private 

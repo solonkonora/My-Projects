@@ -2,8 +2,8 @@
 
 * {
     margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+    padding: 0px;
+    /* font-family: sans-serif; */
     text-decoration: none;
     list-style: none;
 }
@@ -197,7 +197,7 @@ a.active,
 
 .test {
     font-style: italic;
-    background: -webkit-linear-gradient(white, rgb(184, 182, 195));
+    background: -webkit-linear-gradient(white, rgb(69, 2, 252));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -289,6 +289,7 @@ a.active,
 .footer h4 {
     margin-bottom: 10px;
     font-weight: 600px;
+    color: white;
 }
 
 .icons .fa {
