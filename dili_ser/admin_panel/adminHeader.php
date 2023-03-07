@@ -22,8 +22,8 @@
           <?php
         } else {
             ?>
-            <a href="" style="text-decoration:none;">
-                    <i class="fa fa-sign-in mr-5" style="font-size:30px; color:#fff;" aria-hidden="true"></i>
+            <a href="http://localhost/dili_ser/index.php?page=login" style="text-decoration:none;">
+                    <i class="fa fa-sign-out" style="font-size:30px; color:#fff;" aria-hidden="true"></i>
             </a>
             
             <?php

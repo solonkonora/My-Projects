@@ -197,7 +197,7 @@ a.active,
 
 .test {
     font-style: italic;
-    background: -webkit-linear-gradient(white, rgb(69, 2, 252));
+    background: -webkit-linear-gradient(rgb(255, 200, 255), rgb(70, 240, 232));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -229,7 +229,7 @@ a.active,
     color: white;
     padding: 10px;
     font-size: 25px;
-    background: blue;
+    background: rgb(18, 18, 122);
     opacity: 0.9;
     position: relative;
     cursor: pointer;

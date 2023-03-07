@@ -33,10 +33,6 @@
 		</div>
 	</form>
 	
-	<!-- <?php include 'process/classes.php'; ?> -->
-	
-	<!-- <?php include './loginconnection.php.php'; ?> -->
-	
 </body>
 
 </html>

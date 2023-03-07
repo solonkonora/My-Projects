@@ -12,7 +12,7 @@
     <a href="#customers"  onclick="showCustomers()" ><i class="fa fa-users"></i> Customers</a>
     <a href="#category"   onclick="showCategory()" ><i class="fa fa-th-large"></i> Category</a>
     <a href="#products"   onclick="showProductItems()" ><i class="fa fa-th"></i> Products</a>
-    <a href="#logout" onclick="showlogout()"><i class="fa fa-sign-out"></i> logout</a>
+    <!-- <a href="#logout" onclick="showlogout()"><i class="fa fa-sign-out"></i> logout</a> -->
   
   <!---->
 </div>
